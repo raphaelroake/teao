@@ -1,0 +1,711 @@
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: gt_sectra_display;
+    src: url(assets/fonts/GT-Sectra-Display-Light.woff);
+}
+
+@font-face {
+    font-family: gt_sectra_book;
+    src: url(assets/fonts/GT-Sectra-Book.woff);
+}
+
+body, html{
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+
+b, strong {
+    font-weight: 700
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    display: list-item;
+    list-style: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, td, th {
+    font-weight: 400;
+    vertical-align: top;
+    text-align: left
+}
+
+q {
+    quotes: none
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+q:after, q:before {
+    content: '';
+    content: none
+}
+
+small, sub, sup {
+    font-size: 20%;
+}
+
+sub, sup {
+    line-height: 1;
+    left: -18px;
+    position: relative;
+    vertical-align: relative;
+}
+
+sub {
+    bottom: -.35em
+}
+
+sup {
+    top: -.80em;
+    font-size: 0.25em;
+    font-weight: 400;
+}
+
+svg {
+    overflow: hidden;
+}
+
+input, button, submit { 
+    border:none; } 
+
+
+
+
+
+
+
+/* Large Desktop Styles */
+@media only screen and (min-width: 0px)
+
+{
+
+   h1{
+    float: right;
+    color: black;
+    font-weight: 100;
+    line-height: 1em;
+    font-size: 33vw;
+    font-family: "gt_sectra_display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h2{
+    color: white;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 11vw;
+    font-family: "gt_sectra_display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-variant-numeric: lining-nums;  
+   
+}
+    
+h2:hover{
+        color: black;
+    }
+
+h3{
+    color: white;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 4vw;
+    font-family: "gt_sectra_display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border: 1px solid black;
+    border-width: 1px;
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+    font-variant-numeric: lining-nums;
+}
+
+h3:hover{
+    color: black;
+    border: 1px solid #000;
+    
+}
+
+h4{
+    color: black;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 30px;
+    font-family: "gt_sectra_display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-variant-numeric: lining-nums;
+}
+
+h5{
+    color: black;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 45px;
+    font-family: "gt_sectra_display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-variant-numeric: lining-nums;
+    }
+
+h5:hover{
+    color: white;
+}
+    
+h6{
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 100;
+    float: left;
+    border: 1px solid #fff;
+    border-width: 1px;
+    background-color: black;
+    padding: 10px 10px 5px 10px;
+    width: 1340px;
+    }
+    
+h6:hover{
+        background-color: black;
+        border: 1px solid #000;
+    }
+    
+h7{
+        color: black;
+        font-family: "gt_sectra_book";
+        font-size: 4vw;
+    }
+    
+h8{
+        color: white;
+        font-family: "gt_sectra_display";
+        font-size: 30px;
+    }
+    
+
+h9{
+    font-family: "Times New Roman";
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 17px;
+    }
+    
+
+    
+
+p {
+    font-family: "gt_sectra_book";
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 17px;
+    text-indent: 25px;
+}
+    
+p:nth-of-type(1) {
+    text-indent: 0px;   
+}
+    
+.s-indent{
+        text-indent: 0px;
+        margin-left: 50px;
+    }
+    
+.white{
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+  
+.container{
+    width: calc(100vw - 40px);
+}
+
+    
+    
+.work{
+    float: left;
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid black;
+    border-width: 1px;
+    margin: 30px;
+}
+
+
+.projects{
+    margin-left: 0px;
+    margin-top: 15px;
+    }
+    
+
+.feed{
+    float: left;
+    width: 1360px;
+    height: 130px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.feed:hover{
+    background-color: white;
+}
+    
+.feed-content{
+    width: 715px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    }
+    
+    
+.feed-image{
+    float: left;
+    width: 600px;
+    opacity: 0;
+    }
+    
+.feed-image:hover{
+        opacity: 1;
+    }
+    
+    
+.feed-image-box{
+    float: left;
+    width: 600px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    }
+    
+    
+.feed-text{
+    width: 400px;
+    margin-top: 20px;
+    }
+    
+.feed-back{
+    float: left;
+    width: 145px;
+    padding: 10px;
+    padding-top: 5px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: white;
+    }
+    
+.feed-title{
+    float: left;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 700px;
+    margin-left: 10px;
+    }
+    
+
+.feed-title:hover{
+    background-color: white;
+    }
+    
+    
+
+.news{
+    float: left;
+    width: 1370px;
+    height: 130px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.news:hover{
+    background-color: white;
+}
+    
+.links{
+    float: left;
+    width: 1360px;
+    height: 130px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.links:hover{
+    background-color: white;
+}
+    
+    
+.nav1{
+    position: fixed;
+    margin-top: 430px;
+    height: 20px;
+    }    
+
+.nav2{
+    position: fixed;
+    margin-top: 430px;
+    height: 20px;
+    margin-left: 670px;
+    transform: rotate(180deg);
+    }
+    
+.text1{
+    float: left;
+    padding: 10px;
+    width: 345px;
+    }
+    
+.text2{
+    float: right;
+    padding: 10px;
+    width: 345px;
+    }
+    
+.post{
+    float: left;
+    width: 1100px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.post:hover{
+    background-color: white;
+    }
+    
+.date{
+    float: left;
+    margin-top: 20px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    background-color: black;
+    }
+    
+
+.title{
+    margin: 30px;
+    pointer-events: none;
+    }
+    
+.home{
+    float: left;
+    padding: 1%;
+    height: 4vw;
+    width: 100vw;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+    
+    
+.image{
+    float: left;
+    width: 100%;
+    opacity: 0;
+}
+    
+    
+.image-border{
+        float: left;
+        width: calc(100vw - 60px);
+        border: 1px solid black;
+        margin-bottom: 20px;
+        margin: 30px;
+    }
+
+    
+.image-2{
+    float: left;
+    width: 100%;
+    opacity: 0;
+}
+    
+.image-2:hover + .description{
+    opacity: 1;
+    }
+    
+.text-box-1{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    }
+
+.text-box-1:hover{
+    background-color: white;
+    }
+    
+.text-box-2{
+    float: left;
+    width: 430px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #fff;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    }
+
+.text-box-2:hover{
+    background-color: white;
+    }
+    
+.text-content{
+    float: left;
+    padding: 10px;
+    width: 400px;
+    }
+    
+.project-title{
+    float: left;
+    width: calc(100vw - 80px);
+    padding: 10px;
+    border: 1px solid black;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+    
+
+.project-title:hover{
+    background-color: white;
+}
+    
+.description{
+        float: left;
+        position: relative;
+        padding: 10px;
+        pointer-events: none;
+        background-color: white;
+        opacity: 0;
+        bottom: 0px;
+    }
+    
+    
+.description2{
+        float: left;
+        position: relative;
+        padding: 10px;
+        pointer-events: none;
+        opacity: 0;
+    }
+    
+.description3{
+        float: right;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-width: 1px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        margin-right: 55px;
+    }
+    
+.description3:hover{
+        background-color: white;
+    }
+    
+.footer{
+    float: left;
+    width: 200px;
+    margin-right: 7px;
+    margin-bottom: 40px;
+/*    height: 60px;*/
+    margin-top: 5px;
+    margin-left: 30px;
+    }
+    
+    .footer a:hover + .arrow{
+        opacity: 1;
+        
+    }
+    
+    .arrow{
+        opacity: 0;
+        display: inline-block;
+/*        position: fixed;*/
+    }
+    
+.footer-line{
+    width: calc(100vw-20px);
+    float: right;
+    border: 0.5px solid black;
+    margin: 10px;
+    }
+    
+.right{
+    float: right;
+    margin-right: 70px;
+    width: 203px;
+    }
+    
+.section{
+    float: left;
+    width: 310px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    }
+    
+    
+.exhibition-line{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 1320px;
+    float: left;
+    border: 0.5px solid #000;
+    }
+    
+.spacer{
+        float: left;
+        width: 600px;
+        height: 147px;
+    }
+
+
+.date:hover{
+    background-color: white;
+    
+}
+
+.image:hover + .description{
+    opacity: 1;
+}
+
+
+
+.image-2:hover{
+    opacity: 1;
+}
+    
+.rb{
+    float: right;
+    padding: 10px;
+    padding-top: 5px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+
+.rb:hover{
+        background-color: white;
+    }
+    
+    
+.h-height{
+        height: 55px;
+    }
+    
+.m1{
+        margin-top: -37px;
+    }
+
+.m2{
+        margin-top: -54px;
+    }
+    
+.m3{
+        margin-top: -71px;
+    }
+    
+.m4{
+        margin-top: -88px;
+    }
+
+    
+.margin{
+        margin-bottom: 230px;
+    }
+    
+    
+    .title-height{
+        height: 35px;
+    }
+
+.exhibition {
+    float: left;
+    width: 1320px;
+    padding: 10px;
+    padding-top: 5px;
+    border: 1px solid #fff;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.exhibition:hover{
+    background-color: white;
+        border: 1px solid #000;
+}
+    
+    
+.press{
+    width: 620px;
+    margin-bottom: 20px;
+    }
+    
+    .fl{
+        float: left;
+        
+    }
+
+    
+    
+}
